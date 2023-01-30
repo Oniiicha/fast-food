@@ -6,10 +6,12 @@ html,
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
 }
 
 .wrapper {
     min-height: 100%;
+    background-color: #1c1c1c;
 }
 
 ul {
@@ -23,6 +25,7 @@ ul>li {
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 h1,
@@ -91,21 +94,89 @@ img {
 }
 
 .btn {
+    color: #FFFFFF;
     background: #f6762c;
     border-radius: 5px;
     padding: 15px 36px;
-    color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
 
-.content {}
+.content {
+    max-width: 49%;
+    padding-top: 186px;
+}
 
 .content__desc {}
 
-.content__headline {}
+.content__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
 
-.title {}
+.title {
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.17;
+    margin-bottom: 37px;
+}
 
-.content__text {}
+.content__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 42px;
+}
+
+.food {
+    padding: 115px 0 102px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__item {
+    width: calc(25% - 30px);
+}
+
+.product-card {
+    border-radius: 10px;
+    background: #312F30;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.product-card__img-wrap {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.product-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-card__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.product-card__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
