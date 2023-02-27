@@ -71,8 +71,6 @@ img {
     object-fit: contain;
 }
 
-.nav {}
-
 .nav__list {
     display: flex;
 }
@@ -108,8 +106,6 @@ img {
     max-width: 49%;
     padding-top: 186px;
 }
-
-.content__desc {}
 
 .content__headline {
     font-weight: 500;
@@ -224,23 +220,84 @@ img {
     margin-bottom: 13px;
 }
 
-.order__price {
-    margin-bottom: 11px;
-}
-
-.price__new {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.1em;
-    color: #f6762c;
-}
-
-.price__old {
+.price {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.1em;
+}
+
+.order__price {
+    margin-bottom: 11px;
+
+}
+
+.price__new {
+    color: #f6762c;
+}
+
+.price__new_size_big {
+    font-size: 20px;
+}
+
+.price__old {
     text-decoration-line: line-through;
     color: rgba(246, 118, 44, 0.5);
+}
+
+.offers {
+    padding: 150px 0px 146px;
+}
+
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.offers__item {
+    width: 48.7%;
+    height: 300px;
+}
+
+.offers__item:nth-child(even) .offer__action {
+    left: 9%;
+}
+
+.offer {
+    position: relative;
+}
+
+.offers__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.offer__action {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    width: 44%;
+}
+
+.offer .action__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.offer__paragraph {
+    margin-bottom: 11px;
+}
+
+.offer__price {
+    margin-bottom: 11px;
+}
+
+.offer__btn {
+    padding: 13px 36px;
+    font-size: 12px;
 }
