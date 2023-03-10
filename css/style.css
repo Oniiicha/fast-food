@@ -93,13 +93,18 @@ img {
 
 .btn {
     color: #FFFFFF;
-    background: #f6762c;
+    background-color: #f6762c;
     border: none;
     border-radius: 5px;
     padding: 15px 36px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: #be4f0f;
 }
 
 .content {
@@ -141,6 +146,18 @@ img {
 
 .food__item {
     width: calc(25% - 30px);
+}
+
+.food__item:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.food__item:hover:before {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
 }
 
 .product-card {
@@ -259,6 +276,19 @@ img {
 .offers__item {
     width: 48.7%;
     height: 300px;
+    position: relative;
+}
+
+.offers__item:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.offers__item:hover:before {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
 }
 
 .offers__item:nth-child(even) .offer__action {
@@ -301,3 +331,21 @@ img {
     padding: 13px 36px;
     font-size: 12px;
 }
+
+.feedback {}
+
+.container {}
+
+.feedback__container {}
+
+.feedback__avatars {}
+
+.feedback__column {}
+
+.avatars {}
+
+.avatar {}
+
+.feedback__avatar {}
+
+.avatar__link {}
