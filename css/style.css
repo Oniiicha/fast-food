@@ -155,6 +155,8 @@ img {
     width: 100%;
     height: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .food__item:hover:before {
@@ -168,6 +170,7 @@ img {
     overflow: hidden;
     text-align: center;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .product-card__img-wrap {
@@ -353,11 +356,24 @@ img {
     width: 346px;
     height: 346px;
     position: relative;
+    border-radius: 50%;
+    transform: rotate(-65deg);
+}
+
+.avatars::after {
+    content: "";
+    width: 230px;
+    height: 230px;
+    border: inherit;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
 }
 
 .avatar {
-    width: 85px;
-    height: 85px;
     overflow: hidden;
     border-radius: 50%;
 }
@@ -367,33 +383,44 @@ img {
 }
 
 .feedback__avatar:nth-child(1) {
+    width: 85px;
+    height: 85px;
     top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(65deg);
 }
 
 .feedback__avatar:nth-child(2) {
+    width: 71px;
+    height: 71px;
     top: 50%;
     right: 0;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -50%) rotate(65deg);
 }
 
 .feedback__avatar:nth-child(3) {
+    width: 75px;
+    height: 75px;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%) rotate(65deg);
 }
 
 .feedback__avatar:nth-child(4) {
+    width: 77px;
+    height: 77px;
     top: 50%;
     left: 0;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(65deg);
 }
 
 .feedback__avatar:nth-child(5) {
+    width: 112px;
+    height: 112px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(65deg);
+    box-shadow: 0px 4px 25px 40px rgba(246, 118, 44, 0.05);
 }
 
 .avatar__link {
