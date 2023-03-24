@@ -343,6 +343,7 @@ img {
 
 .feedback__container {
     display: flex;
+    align-items: center;
 }
 
 .feedback__avatars {}
@@ -436,10 +437,57 @@ img {
     object-position: top center;
 }
 
-.review {}
+.review {
+    font-family: 'Roboto';
+    max-width: 368px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    position: relative;
+}
 
-.review__text {}
+.review::before {
+    content: "";
+    display: block;
+    width: 43px;
+    height: 43px;
+    background: rgba(246, 118, 44, 0.1);
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: -83px;
+    transform: translate(-50%, 0);
+}
 
-.review__user-name {}
+.review::after {
+    content: "";
+    display: block;
+    width: 37px;
+    height: 31px;
+    background: url(../img/icons/quots.svg) center/contain no-repeat;
+    position: absolute;
+    left: 50%;
+    top: -68px;
+    transform: translate(-75%, 0);
+}
 
-.review__user-info {}
+.review__text {
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.review__user-name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.review__user-info {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
