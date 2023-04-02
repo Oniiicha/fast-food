@@ -101,6 +101,7 @@ img {
     font-size: 16px;
     line-height: 1.18;
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -490,4 +491,38 @@ img {
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
+}
+
+.download {
+    height: 170px;
+    background: #312F30;
+}
+
+.load__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.load__text {
+    margin-top: 60px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.load__btn {
+    margin-top: 60px;
+    background: #F6762C;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 39px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
 }
