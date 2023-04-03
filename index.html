@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast Food</title>
+    <title>Ice-cream</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,270 +20,341 @@
         <section class="hero">
             <div class="container">
                 <header class="header">
-                    <a href="#!" class="logo">
-                        <img src="img/content/fast-food-logo.png" alt="Логотип" class="logo__img">
-                    </a>
+                    <div class="logo">
+                        <img src="img/icons/logo.png" alt="Логотип" class="logo__img">
+                    </div>
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">HOME</a>
+                                <a href="#!" class="nav__link nav__color">Home</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">PAGES</a>
+                                <a href="#!" class="nav__link">Product</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">OUR OFFER</a>
+                                <a href="#!" class="nav__link">Pricing</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">PRICING</a>
+                                <a href="#!" class="nav__link">Testimonials</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#!" class="nav__link">SHOP</a>
+                                <a href="#!" class="nav__link">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
                     <button class="btn">
-                        ORDER NOW
+                        Buy Now
                     </button>
                 </header>
                 <div class="content">
                     <div class="content__desc">
-                        <div class="content__headline">FAST FOOD BURGERS</div>
-                        <h1 class="title">
-                            The fastest food, for instant hunger.
+                        <div class="content__headline">Sweet fun, full of milk.</div>
+                        <h1 class="title content__title">
+                            Feel inside cold with our delicious <span class="title__element">ice-cream.</span>
                         </h1>
                         <div class="content__text">
-                            Some food has looked so awful that it's looked like something that the dog's brought home,
-                            yet after one mouthful I've been left eating my thoughts, my words & my food and gone back
-                            for seconds.
+                            Some food has looked so awful that it's looked like something that <br>the dog's brought
+                            home,
+                            yet after one mouthful I've been left <br>eating my thoughts, my words.
                         </div>
+                        <button class="btn">
+                            Buy Now
+                        </button>
                     </div>
-                    <button class="btn">
-                        ORDER NOW
-                    </button>
+                    <div class="content__decor">
+                        <img src="img/content/ice-cream.png" alt="Мороженое" class="content__img">
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="food">
+        <section class="delivery">
             <div class="container">
-                <ul class="food__list">
-                    <li class="food__item product-card">
-                        <div class="product-card__img-wrap">
-                            <img src="img/content/chicken-paella.jpg" alt="Салат" class="product-card__img">
+                <ul class="delivery__list">
+                    <li class="delivery__item product-card">
+                        <div class="delivery-card__img-wrap">
+                            <img src="img/icons/bus.svg" alt="" class="delivery-card__img bus__img">
                         </div>
-                        <h3 class="product-card__title">
-                            Chicken Paella
+                        <h3 class="delivery-card__title">
+                            Free Shipping
                         </h3>
-                        <div class="paragraph product-card__desc">
-                            We just don't make and sell food.Good food warms.
+                        <div class="delivery-card__desc">
+                            Last Chance! Free shipping on all orders ends today.
                         </div>
                     </li>
-                    <li class="food__item product-card">
-                        <div class="product-card__img-wrap">
-                            <img src="img/content/Taco-Del-Mar.jpg" alt="Салат" class="product-card__img">
+                    <li class="delivery__item product-card">
+                        <div class="delivery-card__img-wrap">
+                            <img src="img/icons/ice.svg" alt="" class="delivery-card__img pack__img">
                         </div>
-                        <h3 class="product-card__title">
-                            Taco Del Mar
+                        <h3 class="delivery-card__title">
+                            Quick Packaging
                         </h3>
-                        <div class="paragraph product-card__desc">
-                            Taco Del Mar brings the best out of Mexican cuisine with fresh.
+                        <div class="delivery-card__desc">
+                            Last Chance! Free shipping on all orders ends today.
                         </div>
                     </li>
-                    <li class="food__item product-card">
-                        <div class="product-card__img-wrap">
-                            <img src="img/content/Bon-Au-Pain.jpg" alt="Салат" class="product-card__img">
+                    <li class="delivery__item product-card">
+                        <div class="delivery-card__img-wrap">
+                            <img src="img/icons/cash-back.svg" alt="" class="delivery-card__img cash__img">
                         </div>
-                        <h3 class="product-card__title">
-                            Bon Au Pain
+                        <h3 class="delivery-card__title">
+                            100% Money Back
                         </h3>
-                        <div class="paragraph product-card__desc">
-                            Bon Au Pain is a pioneer in the healthy fast food scene.
+                        <div class="delivery-card__desc">
+                            Last Chance! Free shipping on all orders ends today.
                         </div>
                     </li>
-                    <li class="food__item product-card">
-                        <div class="product-card__img-wrap">
-                            <img src="img/content/Pizza-Hut.jpg" alt="Салат" class="product-card__img">
+                    <li class="delivery__item product-card">
+                        <div class="delivery-card__img-wrap">
+                            <img src="img/icons/fast-delivery.svg" alt="" class="delivery-card__img fast__img">
                         </div>
-                        <h3 class="product-card__title">
-                            Pizza Hut.
+                        <h3 class="delivery-card__title">
+                            Fast Delivery
                         </h3>
-                        <div class="paragraph product-card__desc">
-                            Although the Pizza Hut Menu Prices have tumbled over the years.
+                        <div class="delivery-card__desc">
+                            Last Chance! Free shipping on all orders ends today.
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="order">
-            <div class="container order__container">
-                <div class="order__img-wrap">
-                    <img src="img/content/Burger-King.png" alt="" class="order__img">
-                </div>
-                <div class="order__desc">
-                    <div class="action order__action">
-                        <div class="action__title order__title">
-                            Burger King
+            <div class="container">
+                <div class="order__content">
+                    <div class="order__desc">
+                        <div class="order__title">Brown Sugar <br>Oatmea</div>
+                        <div class="order__text">Together with McDonald’s, Burger King has grown to become synonymous
+                            with
+                            burgers in the US. Together with McDonald’s, Burger King has grown to become synonymous.
                         </div>
-                        <div class="paragraph order__paragraph">
-                            Together with McDonald's, Burger King has grown to become synonymous with burgers in the US.
-                        </div>
-                        <div class="price order__price">
-                            <span class="price__new price__new_size_big">$6</span>
-                            <span class="price__old">$8</span>
-                        </div>
-                        <button class="btn">
-                            ORDER NOW
-                        </button>
+                        <button class="btn">See Details</button>
+                    </div>
+                    <div class="order__img-wrap">
+                        <img src="img/content/brown-sugar.png" alt="" class="order__img">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="offers">
+        <section class="menu">
             <div class="container">
-                <ul class="offers__list">
-                    <li class="offers__item offer">
-                        <img src="img/content//Mask Group (1).png" alt="" class="offers__img">
-                        <div class="action offer__action">
-                            <div class="action__title">
-                                Dairy Queen
+                <div class="menu__title">
+                    Our Product
+                </div>
+                <nav class="product">
+                    <ul class="product__list">
+                        <li class="product__item">
+                            <a href="#!" class="product__link product__color">ICE CREAM</a>
+                        </li>
+                        <li class="product__item">
+                            <a href="#!" class="product__link">CAYENNE CHOCOLATE</a>
+                        </li>
+                        <li class="product__item">
+                            <a href="#!" class="product__link">CAKE BATTER</a>
+                        </li>
+                        <li class="product__item">
+                            <a href="#!" class="product__link">CANDY CANE</a>
+                        </li>
+                        <li class="product__item">
+                            <a href="#!" class="product__link">PLATTERS</a>
+                        </li>
+                        <li class="product__item">
+                            <a href="#!" class="product__link">DESSERT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="product__menu">
+                    <ul class="product__menu-list">
+                        <li class="product__menu-item">
+                            <img class="image" src="img/content/ice1.jpg" alt="">
+                            <div class="product__menu-content">
+                                <div class="product__menu-title">
+                                    Brown bread
+                                </div>
+                                <div class="product__menu-paragrap">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in
+                                    the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.
+                                </div>
+                                <div class="product__menu-price">
+                                    <span class="price__new">$19.55</span>
+                                    <span class="price__old">$22.55</span>
+                                </div>
+                                <button class="btn">
+                                    Buy Now
+                                </button>
                             </div>
-                            <div class="paragraph offer__paragraph">
-                                Dairy Queen is one of the biggest fast-food.
+                        </li>
+                        <li class="product__menu-item">
+                            <img class="image" src="img/content/ice2.jpg" alt="">
+                            <div class="product__menu-content">
+                                <div class="product__menu-title">
+                                    Cayenne chocolate
+                                </div>
+                                <div class="product__menu-paragrap">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in
+                                    the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.
+                                </div>
+                                <div class="product__menu-price">
+                                    <span class="price__new">$19.55</span>
+                                    <span class="price__old">$22.55</span>
+                                </div>
+                                <button class="btn">
+                                    Buy Now
+                                </button>
                             </div>
-                            <div class="price offer__price">
-                                <span class="price__new">$4</span>
-                                <span class="price__old">$6</span>
+                        </li>
+                        <li class="product__menu-item">
+                            <img class="image" src="img/content/ice3.jpg" alt="">
+                            <div class="product__menu-content">
+                                <div class="product__menu-title">
+                                    Sweet corn
+                                </div>
+                                <div class="product__menu-paragrap">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in
+                                    the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.
+                                </div>
+                                <div class="product__menu-price">
+                                    <span class="price__new">$19.55</span>
+                                    <span class="price__old">$22.55</span>
+                                </div>
+                                <button class="btn">
+                                    Buy Now
+                                </button>
                             </div>
-                            <button class="btn offer__btn">
-                                ORDER NOW
-                            </button>
-                        </div>
-                    </li>
-                    <li class="offers__item offer">
-                        <img src="img/content/Mask Group.png" alt="" class="offers__img">
-                        <div class="action offer__action">
-                            <div class="action__title">
-                                Pizza Hut
-                            </div>
-                            <div class="paragraph offer__paragraph">
-                                Although the Pizza Hut Menu Prices .
-                            </div>
-                            <div class="price offer__price">
-                                <span class="price__new">$3</span>
-                                <span class="price__old">$7</span>
-                            </div>
-                            <button class="btn offer__btn">
-                                ORDER NOW
-                            </button>
-                        </div>
-                    </li>
-                    <li class="offers__item offer">
-                        <img src="img/content/CDSDQwsqfD 1.png" alt="" class="offers__img">
-                        <div class="action offer__action">
-                            <div class="action__title">
-                                Burger King
-                            </div>
-                            <div class="paragraph offer__paragraph">
-                                Together with McDonald’s, Burger King.
-                            </div>
-                            <div class="price offer__price">
-                                <span class="price__new">$5</span>
-                                <span class="price__old">$6</span>
-                            </div>
-                            <button class="btn offer__btn">
-                                ORDER NOW
-                            </button>
-                        </div>
-                    </li>
-                    <li class="offers__item offer">
-                        <img src="img/content/Mask Group (2).png" alt="" class="offers__img">
-                        <div class="action offer__action">
-                            <div class="action__title">
-                                Papa John’s
-                            </div>
-                            <div class="paragraph offer__paragraph">
-                                Papa John’s is one of the most popular fast-food.
-                            </div>
-                            <div class="price offer__price">
-                                <span class="price__new">$6</span>
-                                <span class="price__old">$8</span>
-                            </div>
-                            <button class="btn offer__btn">
-                                ORDER NOW
-                            </button>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </section>
         <section class="feedback">
             <div class="container feedback__container">
-                <div class="feedback__avatars feedback__column">
-                    <ul class="avatars">
-                        <li class="avatar feedback__avatar">
-                            <a href="!#" class="avatar__link">
-                                <img class="avatar__img" src="img/content/man1.png" alt="">
-                            </a>
-                        </li>
-                        <li class="avatar feedback__avatar">
-                            <a href="!#" class="avatar__link">
-                                <img class="avatar__img" src="img/content/woman1.png" alt="">
-                            </a>
-                        </li>
-                        <li class="avatar feedback__avatar">
-                            <a href="!#" class="avatar__link">
-                                <img class="avatar__img" src="img/content/woman2.png" alt="">
-                            </a>
-                        </li>
-                        <li class="avatar feedback__avatar">
-                            <a href="!#" class="avatar__link">
-                                <img class="avatar__img" src="img/content/man2.png" alt="">
-                            </a>
-                        </li>
-                        <li class="avatar feedback__avatar">
-                            <a href="!#" class="avatar__link">
-                                <img class="avatar__img" src="img/content/woman3.jpg" alt="">
-                            </a>
-                        </li>
-                    </ul>
+                <div class="feedback__column">
+                    <div class="reviews">
+                        <div class="review">
+                            <div class="user-info">
+                                <div class="avatar">
+                                    <img src="img/icons/girl.png" alt="" class="avatar__img">
+                                </div>
+                                <div class="user-info__text">
+                                    <div class="user-info__name">
+                                        Adele A. McNeill
+                                    </div>
+                                    <div class="user-info__desc">
+                                        AMIRICAN
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__text">
+                                Thanks a lot for the prompt service. Really appreciate. Excellence taste in Every
+                                Bite.Add a
+                                joy of best Taste. Foodie Moments.
+                            </div>
+                        </div>
+                        <div class="avatars">
+                            <div class="avatars__ctrls">
+                                <a class="avatars__ctrl avatars__ctrl-left" href="#!">
+                                    <svg class="avatars__ctrl-pic" width="10" height="14" viewBox="0 0 10 14"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.88828 7.54628L2.6581 13.7763C2.51401 13.9206 2.32165 14 2.11655 14C1.91144 14 1.71909 13.9206 1.57499 13.7763L1.11618 13.3176C0.81763 13.0188 0.81763 12.533 1.11618 12.2345L6.34781 7.0029L1.11038 1.76547C0.966279 1.62126 0.886719 1.42901 0.886719 1.22402C0.886719 1.0188 0.966279 0.826562 1.11038 0.682239L1.56918 0.223657C1.7134 0.0794468 1.90564 0 2.11074 0C2.31585 0 2.5082 0.0794468 2.6523 0.223657L8.88828 6.45941C9.03272 6.60408 9.11205 6.79723 9.1116 7.00256C9.11205 7.20869 9.03272 7.40173 8.88828 7.54628Z"
+                                            fill="#D64374" />
+                                    </svg>
+                                    <!-- <img src="img/icons/arrow.svg" alt="" class="avatars__ctrl-pic"> -->
+                                </a>
+                                <a class="avatars__ctrl avatars__ctrl-right" href="#!">
+                                    <svg class="avatars__ctrl-pic" width="10" height="14" viewBox="0 0 10 14"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.88828 7.54628L2.6581 13.7763C2.51401 13.9206 2.32165 14 2.11655 14C1.91144 14 1.71909 13.9206 1.57499 13.7763L1.11618 13.3176C0.81763 13.0188 0.81763 12.533 1.11618 12.2345L6.34781 7.0029L1.11038 1.76547C0.966279 1.62126 0.886719 1.42901 0.886719 1.22402C0.886719 1.0188 0.966279 0.826562 1.11038 0.682239L1.56918 0.223657C1.7134 0.0794468 1.90564 0 2.11074 0C2.31585 0 2.5082 0.0794468 2.6523 0.223657L8.88828 6.45941C9.03272 6.60408 9.11205 6.79723 9.1116 7.00256C9.11205 7.20869 9.03272 7.40173 8.88828 7.54628Z"
+                                            fill="#D64374" />
+                                    </svg>
+                                    <!-- <img src="img/icons/arrow.svg" alt="" class="avatars__ctrl-pic"> -->
+                                </a>
+                            </div>
+                            <ul class="avatars__list">
+                                <li class="avatar avatars__item">
+                                    <img src="img/icons/man.png" alt="" class="avatars__img">
+                                </li>
+                                <li class="avatar avatars__item active  ">
+                                    <img src="img/icons/girl.png" alt="" class="avatars__img">
+                                </li>
+                                <li class="avatar avatars__item">
+                                    <img src="img/icons/girl.png" alt="" class="avatars__img">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="feedback__column">
-                    <div class="review">
-                        <div class="review__text">
-                            Thanks a lot for the prompt service. Really appreciate. Excellence taste in Every Bite.Add a
-                            joy of best Taste. Foodie Moments.
-                        </div>
-                        <div class="review__user-name">
-                            Adele A. McNeill
-                        </div>
-                        <div class="review__user-info">
-                            AMIRICAN
-                        </div>
-                    </div>
+                    <img src="img/content/ice4.png" alt="" class="feedback__decor">
                 </div>
             </div>
         </section>
-        <section class="download">
+        <section class="application">
             <div class="container">
-                <div class="load__content">
-                    <div class="load__text">
-                        Download Our Menu
+                <div class="app__desc">
+                    <div class="app__img-wrap">
+                        <img src="img/content/application.png" alt="" class="app__img">
                     </div>
-                    <button class="load__btn">
-                        DOWNLOAD
-                    </button>
+                    <div class="app__content">
+                        <div class="app__title">
+                            Simple Way To Order Your Food
+                        </div>
+                        <div class="app__text">
+                            Some food has looked so awful that it's looked like something that the<br>dog's brought
+                            home,
+                            yet
+                            after one mouthful I've been left eating my<br>thoughts.
+                        </div>
+                        <div class="app__bonus">
+                            <div class="app__bonus-list">
+                                <div class="app__bonus-img__wrap">
+                                    <img src="img/icons/select.svg" alt="" class="app__bonus-img">
+                                </div>
+                                <div class="app__bonus-text">
+                                    Select Your Food
+                                </div>
+                            </div>
+                            <div class="app__bonus-list">
+                                <div class="app__bonus-img__wrap">
+                                    <img src="img/icons/add.svg" alt="" class="app__bonus-img">
+                                </div>
+                                <div class="app__bonus-text">
+                                    Add To Cart
+                                </div>
+                            </div>
+                            <div class="app__bonus-list">
+                                <div class="app__bonus-img__wrap">
+                                    <img src="img/icons/order.svg" alt="" class="app__bonus-img">
+                                </div>
+                                <div class="app__bonus-text">
+                                    Order Your Food
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app__download">
+                            <a class="app__download-link" href="#!">
+                                <img class="app__download-link__img" src="img/content/google.png" alt="">
+                            </a>
+                            <a class="app__download-link" href="#!">
+                                <img class="app__download-link__img" src="img/content/appstore.png" alt="">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <div class="container footer__container">
-                <div class="footer__contact">
-                    <a href="#!" class="logo">
-                        <img src="img/content/fast-food-logo.png" alt="Логотип" class="logo__img">
-                    </a>
+        <section class="question">
+            <div class="container">
+                <div class="quest__content">
+                    <div class="quest__title">
+                        Have Question in Mind?<br>Let us help you
+                    </div>
+                    <div class="quest__input-group">
+                        <input type="question" class="quest__input" name="question" placeholder="Enter your question">
+                        <input class="button__submit" value="Send" type="submit">
+                    </div>
                 </div>
             </div>
-        </footer>
+        </section>
     </div>
 </body>
 
