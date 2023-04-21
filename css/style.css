@@ -563,6 +563,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex: 1;
+    column-gap: 10px;
 }
 
 .footer__menu-title {
